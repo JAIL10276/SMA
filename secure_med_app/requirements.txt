@@ -1,0 +1,9 @@
+Flask==2.3.2
+python-dotenv==1.0.0
+cryptography==41.0.4
+mysql-connector-python==8.2.0
+qrcode==7.4.2
+hvac==1.2.0
+SQLAlchemy==2.0.21
+PyJWT==2.8.0
+itsdangerous==2.1.2
