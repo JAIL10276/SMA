@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual Environment ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- Environment Variables / Secrets ----
+.env
+
+# ---- Database Files ----
+*.sqlite3
+*.db
+*.bak
+*.sql
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+
+# ---- VS Code ----
+.vscode/
+*.code-workspace
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Testing ----
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/

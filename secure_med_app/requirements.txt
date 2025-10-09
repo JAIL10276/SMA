@@ -1,9 +1,21 @@
+# Core Flask
 Flask==2.3.2
-python-dotenv==1.0.0
-cryptography==41.0.4
-mysql-connector-python==8.2.0
-qrcode==7.4.2
-hvac==1.2.0
+
+# Database ORM
 SQLAlchemy==2.0.21
-PyJWT==2.8.0
-itsdangerous==2.1.2
+Flask-SQLAlchemy==3.0.3
+
+# Database driver (for MySQL)
+PyMySQL==1.1.0
+
+# Migrations (optional but recommended)
+Flask-Migrate==4.0.5
+
+# Encryption
+cryptography==41.0.7
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Testing & HTTP requests
+requests==2.31.0
