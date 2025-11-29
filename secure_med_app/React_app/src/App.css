@@ -1,0 +1,251 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .medical-symbol {
+    animation: medical-symbol-float;
+  }
+}
+@keyframes medical-symbol-float {
+  from {
+    transform: translateY(1.5);
+  }
+  to {
+    transform: translateY(-1.5);
+  }
+}
+
+.App-header {
+  background-color: #0e0f11;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+button {
+  background-color: #425459;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  background: linear-gradient(to right, #ffffff, #8c8c8c);
+}
+button:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-2px) scale(1.05);
+}
+
+a {
+  text-decoration: none; /* removes underline */
+  color: inherit;        /* makes it use normal text color */
+}
+/* fade.css */
+
+.fade-container {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+object {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+.medical-symbol {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  
+  
+}
+/* Styles for ScanQR component8 */
+.ScanQR_Container {
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #406eb4;
+  border-width: 5px;
+  color: rgb(221, 221, 221);
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  width: 100%;
+  height: 50%;
+  font-weight: bold;
+  
+}
+
+.SMD_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: max-content;
+}
+.SMD_text {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.medical-symbol-small {
+  width: 40px;
+  height: 55px;
+  vertical-align: middle;
+  margin-left: 70px;
+  position: absolute;
+  
+}
+video{
+  border-radius: 12px;
+}
+#qr-shaded-region {
+  border-radius: 12px;
+  
+}
+button#html5-qrcode-button-camera-permission{
+  background-color: #425459;
+  border: none;
+  color: rgb(222, 222, 222);
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+  border-radius: 12px;
+  width: 200px;
+  height: 60px;
+  font-weight: bold;
+  background: linear-gradient(to right, #406eb4, #6684b1);
+}
+select{
+  background-color: #425459;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  background: linear-gradient(to right, #6079dc, #587aad);
+}
+ .scanner-state-button{
+  background-color: #425459;
+  border: none;
+  color: rgb(222, 222, 222);
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  
+  border-radius: 12px;
+  width: 200px;
+  height: 30px;
+
+  background: linear-gradient(to right, #406eb4, #6684b1);
+ }
+
+
+
+ /* Styles for menu*/
+
+ .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+ }
+ 
+ .menu-button {
+  background-color: #425459;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 95%;
+  height: fit-content;
+  font-weight: bold;
+  background: linear-gradient(to right, #0a0a0a, #0a0a0a);
+ }
+
+ .menu-icon{
+  width: 5%;
+  height: auto;
+  margin: 0 10px 0 0;
+ }
+ .loading-icon{
+  width: 10%;
+  height: auto;
+  margin: 0 0 0 0;
+ }
+ .splash-screen{
+  position: fixed;
+ }
+ .top-bar{
+   width: 100%;
+   height: 2em;
+   border-radius: 12px;
+   
+   position: absolute;
+   top: 0px;
+   
+ }
+ .user-container{
+  display: flex;
+  width: max-content;
+  align-items: center;
+  height: 25px;
+  border-radius: 12px;
+  padding: 20px;
+  gap: 8px;
+  background: linear-gradient(to right, #0a0a0a, #0a0a0a);
+  white-space: nowrap;
+  overflow: hidden;
+ }
+ 
+ .lab-coat-icon{
+  width: 100%;
+  height: 100%;
+ }
+
