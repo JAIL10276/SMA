@@ -6,8 +6,9 @@ __pycache__/
 *.so
 *.egg
 *.egg-info/
-dist/
-build/
+/dist/
+/build/
+
 
 # ---- Virtual Environment ----
 .venv/
@@ -29,9 +30,7 @@ env/
 *.out
 *.err
 
-# ---- VS Code ----
-.vscode/
-*.code-workspace
+
 
 # ---- OS Files ----
 .DS_Store
