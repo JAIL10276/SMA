@@ -25,7 +25,7 @@ const HomeView = () => {
                 {/* Navigation Buttons */}
                 <div id="navigation_buttons" style={{ marginBottom: "20px" }}>
                     <h1>Secure Medical App</h1> 
-                    <img className="medical-symbol"  src="/medical-symbol.svg"/>
+                    <img className="medical-symbol"  src="/Assets/medical-symbol.svg"/>
 
                 </div>
                 {/*<div
