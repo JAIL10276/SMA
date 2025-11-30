@@ -13,7 +13,7 @@ const ScanQR = () => {
         <h1 className="SMD_text">SMD</h1>
         <img
           className="medical-symbol-small"
-          src="/Assets/medical-symbol.svg"
+          src="/Assets/Medical-Symbol.svg"
           alt="Medical Symbol"
         />
       </div>

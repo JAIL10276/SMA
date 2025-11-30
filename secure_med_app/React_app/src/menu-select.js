@@ -46,7 +46,7 @@ const MenuSelect = () => {
             <button className="menu-button" onClick={() => navigate("")}>
             <img
                 className="menu-icon"
-                src="/Assets/gear.svg"
+                src="/Assets/Gear.svg"
                 alt="Settings Icon"
             />
             <h3 style={{ color: "white", fontSize: "2em" }}>Settings</h3>
