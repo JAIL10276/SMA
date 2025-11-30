@@ -6,7 +6,7 @@ export default function TopBar(){
             <span className="login-text" style={{fontSize:"12px"}}>sign in</span>
             <img 
                 className="lab-coat-icon" 
-                src="./assets/lab-coat.svg"
+                src="./Assets/lab-coat.svg"
                 alt = "Lab coat"
                 />
 

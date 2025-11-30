@@ -1,3 +1,4 @@
+/**
 import * as THREE from "three";
 
 import React, { Suspense } from "react";
@@ -29,4 +30,4 @@ export default function ModelViewer() {
     </Canvas>
   );
 }
-
+*/

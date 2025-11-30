@@ -16,7 +16,7 @@ const MenuSelect = () => {
             <button className="menu-button" onClick={() => navigate("/scan-qr")}>
                 <img
                 className="menu-icon"
-                src="/assets/QRicon.svg"
+                src="/Assets/QRicon.svg"
                 alt="QR Authentication Icon"
                 />
                 <h3 style={{ color: "white", fontSize: "2em" }}>Authenticate</h3>
@@ -27,7 +27,7 @@ const MenuSelect = () => {
             <button className="menu-button" onClick={() => navigate("/patient")}>
             <img
                 className="menu-icon"
-                src="/assets/patient-data-icon.svg"
+                src="/Assets/patient-data-icon.svg"
                 alt="Patient Data Icon"
             />
             <h3 style={{ color: "white", fontSize: "2em" }}>Patient Data</h3>
@@ -36,7 +36,7 @@ const MenuSelect = () => {
             <button className="menu-button" onClick={() => navigate("")}>
             <img
                 className="menu-icon"
-                src="/assets/key.svg"
+                src="/Assets/key.svg"
                 alt="Key Icon"
             />
             <h3 style={{ color: "white", fontSize: "2em" }}>Key</h3>
@@ -46,7 +46,7 @@ const MenuSelect = () => {
             <button className="menu-button" onClick={() => navigate("")}>
             <img
                 className="menu-icon"
-                src="/assets/gear.svg"
+                src="/Assets/gear.svg"
                 alt="Settings Icon"
             />
             <h3 style={{ color: "white", fontSize: "2em" }}>Settings</h3>
